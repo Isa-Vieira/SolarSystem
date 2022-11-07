@@ -1,3 +1,43 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png')
+}
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.planets-name {
+  display: flex;
+  font-size: 30px;
+
+}
+
+.all-planets img {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+
+}
+
+header {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  padding: 20px;
+}
+
